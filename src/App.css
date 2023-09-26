@@ -1,0 +1,56 @@
+img{
+  width: 25px;
+  height: 25px;
+  margin: 0;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.background-image{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(./assets/background-image.jpg);
+  background-size: cover;
+  height: 200px;
+}
+
+.background-image h1, h2{
+  margin: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.nav-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-links :hover{
+  color: green;
+}
+
+.cart-box{
+  display: flex;
+}
+
+.cart-number{
+  background-color: red;
+  border-radius: 100%;
+  width: 25px;
+  margin-left: 5px;
+}
+
