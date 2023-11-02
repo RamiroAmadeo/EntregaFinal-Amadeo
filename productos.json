@@ -3,81 +3,91 @@
     "id": 1,
     "title": "CHIKEN BURGER",
     "description": "Hamburguesa de pollo, con queso, lechuga y tomate",
-    "price": "$ 3000",
+    "price": 3000,
     "imagen": "https://www.pequerecetas.com/wp-content/uploads/2013/07/hamburguesas-caseras-receta.jpg",
-    "categoria": "hamburguesas"
+    "categoria": "hamburguesas",
+    "stock": 20
   },
   {
     "id": 2,
     "title": "ONION BURGER",
     "description": "Hamburguesa con cebolla caramelizada y queso",
-    "price": "$ 3000",
+    "price": 3000,
     "imagen": "https://i.pinimg.com/564x/c2/5f/9a/c25f9a7dd7af341e08e3c98bad453fbc.jpg",
-    "categoria": "hamburguesas"
+    "categoria": "hamburguesas",
+    "stock": 20
   },
   {
     "id": 3,
     "title": "STACKER BURGER",
     "description": "Cinco medallones de carne, panceta y salsa especial",
-    "price": "$ 3000",
+    "price": 3000,
     "imagen": "https://pbs.twimg.com/media/D-qHyScWsAEzZSe?format=png&name=900x900",
-    "categoria": "hamburguesas"
+    "categoria": "hamburguesas",
+    "stock": 20
   },
   {
     "id": 4,
     "title": "EXTREME BURGER",
     "description": "Cuatro medallones de carne, mucho queso y salsa especial",
-    "price": "$ 3000",
+    "price": 3000,
     "imagen": "https://static.insydo.com/wp-content/uploads/2018/02/john-daniels-uae-burgers.jpg",
-    "categoria": "hamburguesas"
+    "categoria": "hamburguesas",
+    "stock": 20
   },
   {
     "id": 5,
     "title": "VEGAN BURGER",
     "description": "Hamburguesa hecha con lentejas, lechuga y tomate",
-    "price": "$ 3000",
+    "price": 3000,
     "imagen": "https://www.wellplated.com/wp-content/uploads/2016/03/Black-Bean-Vegan-Burger-Recipe.jpg",
-    "categoria": "hamburguesas"
+    "categoria": "hamburguesas",
+    "stock": 20
   },
   {
     "id": 6,
     "title": "CHEESE BURGER",
     "description": "Un medallon de carne y queso ",
-    "price": "$ 3000",
+    "price": 3000,
     "imagen": "https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL2NoZWVzZWJ1cmdlci0xLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6ODI4fSwidG9Gb3JtYXQiOiJhdmlmIn19",
-    "categoria": "hamburguesas"
+    "categoria": "hamburguesas",
+    "stock": 20
   },
   {
     "id": 7,
     "title": "DOBLE CHEESE BURGER",
     "description": "Dos medallones de carne y queso",
-    "price": "$ 3000",
+    "price": 3000,
     "imagen": "https://i.ytimg.com/vi/C5Hq4mjMJQM/maxresdefault.jpg",
-    "categoria": "hamburguesas"
+    "categoria": "hamburguesas",
+    "stock": 20
   },
   {
     "id": 8,
     "title": "PAPAS FRITAS",
     "description": "",
-    "price": "$ 750",
+    "price": 750,
     "imagen": "https://phantom-marca.unidadeditorial.es/813d16708dc72860fd3cf319c9a245b5/resize/828/f/jpg/assets/multimedia/imagenes/2023/08/04/16911461030527.jpg",
-    "categoria": "adicionales"
+    "categoria": "adicionales",
+    "stock": 20
   },
   {
     "id": 9,
     "title": "PAPAS CON CHEDDAR",
     "description": "Papas fritas con queso cheddar y cebolla de verdeo",
-    "price": "$ 1600",
+    "price": 1600,
     "imagen": "https://images.hola.com/imagenes/cocina/recetas/20220420208374/patatas-frita-queso-cheddar/1-77-159/patatas-queso-adob-t.jpg",
-    "categoria": "adicionales"
+    "categoria": "adicionales",
+    "stock": 20
   },
   {
     "id": 10,
     "title": "COCO COLA",
     "description": "",
-    "price": "$ 500",
+    "price": 500,
     "imagen": "https://previews.123rf.com/images/cookelma/cookelma1501/cookelma150100167/35584270-mosc%C3%BA-rusia-04-de-abril-2014-lata-de-coca-cola-en-el-agua-coca-cola-es-un-refresco-efervescente.jpg",
-    "categoria": "adicionales"
+    "categoria": "adicionales",
+    "stock": 20
   }
 
 

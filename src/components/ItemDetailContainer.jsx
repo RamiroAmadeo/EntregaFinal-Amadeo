@@ -15,7 +15,6 @@ const ItemDetailConteiner = () =>{
                 setLoading(false)
         },[id])
 
-    console.log(detail)
 
     if (loading) return <p>loading...</p>
 

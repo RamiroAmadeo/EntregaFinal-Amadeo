@@ -10,7 +10,7 @@ const Navbar = () => {
             <ul className="nav-links">
                 <li><NavLink to= "/productos/hamburguesas">Hamburguesas</NavLink></li>
                 <li><NavLink to="/productos/adicionales">Adicionales</NavLink></li>
-                <CartWidget/>
+                <li><CartWidget/></li>
             </ul>
         </nav>
     );

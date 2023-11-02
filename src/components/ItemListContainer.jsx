@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import ItemList from "./ItemList";
 import React, { useState, useEffect } from "react";
-import { app } from "../firebaseConfig";
+/* import { app } from "../firebaseConfig";
 import { getFirestore, collection, getDocs } from "firebase/firestore"
 
 const db = getFirestore(app);
@@ -14,7 +14,7 @@ consulta.then((resp) => {
 })
 
 
-console.log(consulta, "asd")
+console.log(consulta, "asd") */
 
 const ItemListContainer = (props) => {
     const [burguerList, setBurguerList] = useState([])
