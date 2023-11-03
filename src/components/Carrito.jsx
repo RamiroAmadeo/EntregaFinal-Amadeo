@@ -4,7 +4,7 @@ import { CartContext } from "../context/CartContext";
 
 const Carrito = () =>{
 
-    const { carrito, compraTotal } = useContext(CartContext);
+    const { carrito, compraTotal, borrarCarrito } = useContext(CartContext);
 
     return(
         <div>
@@ -19,7 +19,14 @@ const Carrito = () =>{
                     </div>
                 ))
             }
-            <h2>Precio Total: {compraTotal()} </h2>
+            {
+                carrito.length > 0 ?
+                <>
+                    <h2>Precio Total: ${compraTotal()} </h2>
+                    <button onClick={borrarCarrito}>Borrar</button>
+                </> :
+                <p>El carrito esta vacio</p>
+            }
         </div>
     );
 };
