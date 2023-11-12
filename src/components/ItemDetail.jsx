@@ -40,7 +40,6 @@ const ItemDetail = ( {detail} ) => {
                 handleRestar = {handleRestar}
                 handleSumar = {handleSumar}
                 handleAgregar = {handleAgregar}
-                onAdd = ""
             />
         </section>
     );
