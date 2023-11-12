@@ -1,23 +1,27 @@
 import React, { useEffect, useState } from "react";
 import ItemDetail from "./ItemDetail";
 import { useParams } from "react-router-dom";
+import { getDoc, doc } from "firebase/firestore";
+import { db } from "../firebaseConfig";
 
 const ItemDetailConteiner = () =>{
+
     const [detail, setDetail] = useState([])
-    const [loading, setLoading] = useState(true)
     const id = useParams().id;
+    const [loading, setLoading] = useState(true)
 
     useEffect(()=>{
-        fetch('../../productos.json')
-            .then((respuesta) => respuesta.json())
-            .then((data) => {
-                setDetail(data.find((el) => el.id === Number(id)))})
-                setLoading(false)
-        },[id])
+        const docRef = doc(db, "productos", id);
+        getDoc(docRef)
+            .then((resp) => {
+                setDetail(
+                    {...resp.data(), id: resp.id }
+                )
+                setLoading(false);
+        })
+    },[id])
 
-
-    if (loading) return <p>loading...</p>
-
+    if(loading) return <p>Loading...</p>
 
     return(
         <div>

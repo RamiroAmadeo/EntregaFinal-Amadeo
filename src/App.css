@@ -1,7 +1,36 @@
 img{
   max-width: 60%;
-  height: auto;
+  height: 400px;
   margin-top: 10px;
+}
+
+button{
+  margin-top: 30px;
+  color: black;
+  background-color: orange;
+  border: 2px solid orange;
+  padding: 15px 32px;
+  margin-right: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover{
+  color: white;
+  border: 2px solid orange;
+  background-color: #242424;
+}
+
+button:active{
+  background-color: rgb(190, 124, 0);
+}
+
+h2{
+  margin-top: 30px;
 }
 
 #root {
@@ -20,7 +49,6 @@ img{
 }
 
 .background-image h1, h2{
-  margin: 0;
   background: rgba(0, 0, 0, 0.3);
 }
 
@@ -39,16 +67,12 @@ img{
 .nav-links {
   display: flex;
   justify-content: space-around;
-  width: 30%;
+  width: 40%;
   list-style: none;
 }
 
 .nav-links :hover{
   color: white;
-}
-
-.cart-box{
-  display: flex;
 }
 
 .cart-number{
@@ -64,6 +88,10 @@ img{
   margin: 0;
 }
 
+.cart-box a{
+  display: flex;
+}
+
 .box-container{
   margin-top: 20px;
 }
@@ -73,27 +101,40 @@ img{
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .box-item{
   height: 50%;
   width: 50%;
-}
-
-.boton{
-  color: white;
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  border-radius: 8px;
-  font-size: 16px;
+  margin-top: 50px;
 }
 
 .categoria{
   margin-top: 20px;
+}
+
+.form-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container input{
+  padding: 10px;
+  margin-top: 20px;
+  width: 50%;
+}
+
+.detail-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.detail-box{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 2px solid orange;
+  border-radius: 10%;
 }

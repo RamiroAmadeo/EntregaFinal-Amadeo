@@ -7,8 +7,10 @@ const Item = ({burguerList}) => {
             <h3>{burguerList.title}</h3>
             <img src={burguerList.imagen}></img>
             <p>{burguerList.description}</p>
-            <h4>{burguerList.price}</h4>
-            <Link to={`/detail/${burguerList.id}`} className="boton">Ver mas</Link>
+            <h4>$ {burguerList.price}</h4>
+            <Link to={`/detail/${burguerList.id}`}>
+               <button>Ver mas</button>
+            </Link>
         </div>
     );
 };
